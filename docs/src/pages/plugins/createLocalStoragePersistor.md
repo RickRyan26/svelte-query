@@ -16,8 +16,8 @@ This utility comes packaged with `svelte-query` and is available under the `@sve
 - Pass it to the [`persistQueryClient`](../persistQueryClient) function
 
 ```ts
-import { persistQueryClient } from from '@sveltestack/svelte-query'
-import { createLocalStoragePersistor } from from '@sveltestack/svelte-query'
+import { persistQueryClient } from '@sveltestack/svelte-query'
+import { createLocalStoragePersistor } from '@sveltestack/svelte-query'
 
 const queryClient = new QueryClient({
   defaultOptions: {
